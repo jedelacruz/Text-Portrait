@@ -82,3 +82,60 @@ pre code {
     padding: 20px;
     border-bottom: 5px solid #FF0066;
   }
+  @media only screen and (max-width: 768px) {
+.logo{
+    width: 80px;
+}
+section{
+    width: 90%;
+    margin: auto;
+}
+section h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 24px;
+    text-align: center;
+}
+h1 span{
+    color: #FF0066;
+}
+section p{
+    opacity: 0.5;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    letter-spacing: 5px;
+    font-size: 13px;
+    text-align: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    margin-top: 5vh;
+    justify-content: space-around;
+    flex-flow: wrap;
+    flex-direction: column;
+    margin-bottom: 5vh;
+}
+.container img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.container img:hover{
+    transform: scale(1);
+}
+pre code {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    border-bottom: 5px solid #FF0066;
+  }
+  pre {
+    white-space: pre-wrap; //css3
+    white-space: moz-pre-wrap; //firefox
+    white-space: -pre-wrap; //opera 4-6
+    white-space: -o-pre-wrap; //opera 7
+    word-wrap: break-word; //internet explorer
+}
+
+}

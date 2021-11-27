@@ -33,9 +33,12 @@ body{
 }
 header{   
     width: 100%;
+    margin-bottom: 10vh;
 }
 .logo{
     width: 100px;
+    position: absolute;
+    top: 3vh; left: 5vw;
 }
 section{
     width: 70%;
@@ -82,9 +85,27 @@ pre code {
     padding: 20px;
     border-bottom: 5px solid #FF0066;
   }
+.copy{
+    opacity: 1;
+    display: table;
+    margin: auto;
+    border: solid 2px black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+footer svg{
+    display: block;
+}
   @media only screen and (max-width: 768px) {
+header{
+    margin-bottom: 15vh;
+}
 .logo{
     width: 80px;
+    position: absolute;
+    top: 3vh; left: 5vw;
 }
 section{
     width: 90%;
